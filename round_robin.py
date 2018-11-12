@@ -5,21 +5,21 @@ def printpairing(r,A):
        because in even round the biggest number player takes white"""
     if r%2==1: 
         for i in range(half):
-    """In odd round pairs given by the the following algorithm"""
+        #In odd round pairs given by the the following algorithm
             print(A[i],"-",A[n-1-i])
     else:
-    """In even round pairs we have to seperate the 1st table and after use
-       the same algorithm"""
+#In even round pairs we have to seperate the 1st table and after use
+#the same algorithm"""
         print(A[n-1],"-",A[0])
         for i in range(1,half):
-              print(A[i],"-",A[n-1-i])
+            print(A[i],"-",A[n-1-i])
         
 #ask how many players will play
 n=int(input("How many players will play?\t",))
 #check if players are even or odd number
 if n%2==1:
     n+=1
-    print(n,"\t is meant to be the bye")
+    print(n,"is meant to be the bye")
 half=int(n/2)
 #Create the list of players
 A=[x for x in range(1,n+1)]
