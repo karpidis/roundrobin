@@ -9,7 +9,7 @@ def printpairing(r,A):
             print(A[i],"-",A[n-1-i])
     else:
 #In even round pairs we have to seperate the 1st table and after use
-#the same algorithm"""
+#the same algorithm
         print(A[n-1],"-",A[0])
         for i in range(1,half):
             print(A[i],"-",A[n-1-i])
