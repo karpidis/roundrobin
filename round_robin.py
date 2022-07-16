@@ -1,3 +1,5 @@
+#https://github.com/karpidis/elo_calculator/blob/f601dd6274c6df834e9c7be3212c0e8b4fc83eda/round_robin.py it is an updated version that has dependancies 
+#on elo calculator input checker
 #defining the pairing of the round
 def printpairing(r,A):
     print("\nRound",r,"\n")
